@@ -59,9 +59,6 @@ public class OAuthManagerDialogFragment extends DialogFragment implements Advanc
         new OAuthManagerDialogFragment(reactContext, controller);
       return frag;
     }
-
-    public OAuthManagerDialogFragment() {
-    }
   
     public OAuthManagerDialogFragment(
       final ReactContext reactContext,
